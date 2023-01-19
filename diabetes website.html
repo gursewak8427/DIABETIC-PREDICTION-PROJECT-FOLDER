@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction Website</title>
+    <style>
+         body{
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 0px;
+            padding: 0px;
+            color: #786565;
+            background: url('img123.png');
+            background-size: cover;
+            /* height: 4544px; */
+            background-repeat: no-repeat;
+         }
+        h1{
+            padding: 9px;
+            margin: 46px;  
+            text-align: center;
+        }
+        .container{
+            border: 2px solid white;
+            margin: 96px 42px;
+            padding: 70px;
+            width: 33%;
+            border-radius: 28px;
+        }
+        .form-group input{
+            font-family: 'Baloo Bhai 2', cursive;
+            text-align: center;
+            display: block;
+            width: 362px;
+            padding: 1px;
+            border: 2px solid black;
+            margin:5px auto;
+            font-size: 21px;
+            border-radius: 8px;
+        }
+        .container button{
+            display: block;
+            width: 74%;
+            margin: 20px auto;
+            width: 362px;
+        }
+        .btn{
+            font-family: 'Baloo Bhai 2', cursive;
+            margin:0px 9px;
+            background-color: black;
+            color: white;
+            padding: 3px 4px;
+            border:2px solid gray;
+            border-radius: 10px;
+            font-size:18px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(56, 43, 43);
+        }
+    </style>
+</head>
+<body>
+    <h1>DIABETES PREDICTION FOR FEMALES</h1>
+    <div class="container">
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="Pregnancies" placeholder="Number of times pregnant">
+            </div>
+            <div class="form-group">
+                <input type="text" name="Glucose" placeholder="Glucose concentration">
+            </div>
+            <div class="form-group">
+                <input type="text" name="Insulin" placeholder="Insulin">
+            </div>
+            <div class="form-group">
+                <input type="text" name="BMI" placeholder="Body Mass Index">
+            <div class="form-group">
+                <input type="text" name="Age" placeholder="Age">
+            </div>
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
